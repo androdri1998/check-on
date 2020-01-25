@@ -1,0 +1,80 @@
+import React, {Component} from "react";
+import {StyleSheet} from 'react-native';
+
+import {fist_color,body_color,header_text_color, unfocus_color} from '../config/constantes';
+
+export const postStyle=StyleSheet.create({
+    containerPost:{
+        flexDirection:'column',
+        marginTop:5
+    },
+    padPost:{
+        flex:1,
+        paddingHorizontal:10
+    },
+    lineInfoPerf:{
+        flexDirection:'row',
+        padding:5,
+        paddingHorizontal:10,
+        alignItems:'center',
+    },
+    lineUsername:{
+        color:'black',
+        marginLeft:5,
+        alignSelf:'center',
+        fontSize:15,
+        fontWeight:"600"
+    },
+    lineDivider:{
+        height:1,
+        width:'80%',
+        backgroundColor:'rgba(0,0,0,.1)',
+        alignSelf:'center'
+    },
+    containerContentPost:{
+        padding:10,
+        paddingHorizontal:0
+    },
+    txtContent:{
+        fontSize:14,
+        color:'black'
+    },
+    footerPost:{
+        flexDirection:'row',
+        alignItems:'center',
+        padding:5,
+        paddingHorizontal:0
+    },
+    lineButtons:{
+        flexDirection:'row',
+        flex:1,
+        alignItems:'flex-start'
+    },
+    dateStyle:{
+        fontSize:14,
+        color:unfocus_color
+    },
+    containerPostDestaque:{
+        flex:1,
+        justifyContent:'center'
+    },
+    containerMarcaDagua:{
+        padding:10,
+        alignItems:'flex-end',
+        justifyContent:'flex-end',
+        width:'100%'
+    },
+    marcaDagua:{
+        width:60,
+        height:40,
+        opacity:.5
+    },
+    headerPost:{
+        alignItems:'center',
+        flexDirection:'row',
+    },
+    containerDescricaoDiaPost:{
+        width:40,
+        alignItems:'center'
+    }
+});

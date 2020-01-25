@@ -1,0 +1,11 @@
+import {combineReducers} from 'redux';
+
+import {NameReducer} from './dir/dir';
+//  reducer geral
+
+// retorna todos os reducers combinados
+const reducer= combineReducers({
+  reducername:NameReducer,
+});
+
+export default reducer;

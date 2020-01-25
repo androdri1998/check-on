@@ -1,0 +1,25 @@
+-- mostrar capa
+-- mostrar perfil
+-- mostrar username
+-- mostrar nome 
+-- mostrar descrição
+-- indicar data e hora da atualização da descrição
+-- estilizados já no padrão do preview perfil
+-- atualizar perfil
+atualizar configurações
+implementar paginação de posts
+
+contabilizar seguidores
+contabilizar seguindo
+-- contabilizar dias compartilhados
+
+-- fazer logout
+abrir configurações
+
+listar posts por dia
+    -- sendo que deve ser listado o ultimo post de cada dia
+    -- possivel comentar nesse post
+    -- post deve ser possivel abrir o histórico de posts
+    abrir botão de opções
+    -- indicar hora do post
+    -- indicar dia do post em destaque

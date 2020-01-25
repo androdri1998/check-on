@@ -1,0 +1,17 @@
+$conn =  new PDO($this->dbs['onepub']['db'],$this->dbs['onepub']['user'],$this->dbs['onepub']['pass']);
+$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+$conn->beginTransaction();
+
+try{
+
+    $preInsert=$conn->prepare($sql);
+    $preInsert->execute($values);
+    $preInsert->closeCursor();
+
+    $conn->commit();
+}catch(Exception $e){
+
+    $conn->rollBack();
+}
+
+$conn=null;

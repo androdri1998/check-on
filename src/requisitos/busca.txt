@@ -1,0 +1,8 @@
+listar resultados relevantes para a pesquisa feita em tempo hábil
+gravar as últimas pesquisas do usuário
+permitir ir para o perfil selecionado
+poder salvar um post no perfil selecionado
+poder seguir perfil selecionado
+poder bloquear perfil selecionado
+poder comentar algo no perfil selecionado
+manter sua própria stack

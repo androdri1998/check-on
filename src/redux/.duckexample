@@ -1,0 +1,35 @@
+import {nameImport} from '../DIR/DIR';
+
+// constante a serem usadas por actions e reducers
+export const types ={
+    ACTIONS_CONST:'ACTIONS_CONST',
+};
+
+// estado inicial da store do reducer
+const initial_state={
+    listexample:[]
+};
+
+// local verificação das actions e retornar os resultados obtidos
+export const NameReducer= (state=initial_state,action)=>{
+  switch (action.type) {
+    case types.ACTIONS_CONST:
+      return {
+        ...state,
+        listexample:action.payload.data
+      }
+      break;
+    default:
+      return state;
+  }
+}
+
+export const functionAction=(param1)=>{
+    
+    // code ...
+
+    return {
+      type:types.ACTIONS_CONST,
+      payload:[1,2,3]
+    }
+}

@@ -1,0 +1,37 @@
+FASE 1 CADASTRO
+    -- username min 6 char e max 20 char preenchidos
+    -- email type email correto
+    -- senha min 6 dig senha e conferência de senha corretos
+        -- confirmar dados
+            -- sim
+                -- verificar email existente
+                    -- nao
+                        -- verificar username existente
+                            -- nao
+                                -- passar para segunda fase de cadastro
+                                -- inserir em tabela de pre-inscrição
+                            -- sim
+                                -- continuar na tela
+                    -- sim
+                        -- continuar na tela
+
+            -- nao
+                continuar na tela
+        
+    -- username menor que 6 char
+        alertar tamanho minimo 6 char
+    
+    -- username maior que 20
+        alertar tamanho max 20 char
+
+    -- email type incorreto
+        alertar email inválido
+    
+    -- senha menor que 6 dig
+        alertar senha minima de 6 digitos
+    
+    -- senha e conferencia de senha diferentes
+        alertar senhas diferentes não conferem
+    
+    -- campos vazios
+        alertar campos vazios

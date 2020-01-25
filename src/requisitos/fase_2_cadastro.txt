@@ -1,0 +1,32 @@
+FASE 2 CADASTRO
+    -- nome preenchido min 2 char
+    -- perfil selecionado
+    -- capa selecionada
+    -- descrição preenchida
+        -- confirmar dados
+           -- sim
+                limpar metadados
+               -- cadastrar usuário
+               -- loga-lo
+               -- ir para home
+            -- não
+               -- continuar na tela de edição
+    
+    -- nome preenchido
+    -- perfil, capa ou descrição vazios
+        -- confirmar dados
+            -- sim
+                -- perfil ou capa preenchidos
+                    -- sim
+                        limpar metadados
+                -- cadastrar usuário com valores padrões para campos vazios
+                -- loga-lo
+                -- ir para home
+            -- não
+                -- continuar na tela de edição
+
+    -- nome vazio
+        alertar que nome está vazio
+
+    -- nome menor que 2
+        alertar que nome minimo é 2

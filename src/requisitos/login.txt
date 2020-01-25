@@ -1,0 +1,14 @@
+LOGIN
+    -- email e senhas corretas
+        entrar
+    -- email incorreto e senha correta
+        alertar email incorreto
+    -- email correto e senha incorreta
+        alertar senha incorreta
+        incrementar bloqueio de senha
+    -- email ou/e senha vazios
+        alertar não pode ter campos vazios
+    -- email não é um email correto
+        alertar tipo de email
+    -- senha menor que 6
+        alertar que senha minima é 6
